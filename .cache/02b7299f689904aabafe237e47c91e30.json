@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"popmotion","loc":{"line":1,"column":30}}],"generated":{"js":"\"use strict\";\n\nvar _popmotion = require(\"popmotion\");"},"hash":"c01cf7c35b5bfbd57d6468f71e535b1c"}

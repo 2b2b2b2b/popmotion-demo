@@ -1,0 +1,22 @@
+{
+  "name": "popmotion-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel  index.html -p 8183"
+  },
+  "author": "zll",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^2.7.3",
+    "popmotion": "^8.1.9",
+    "stylefire": "^1.1.8",
+    "underscore": "^1.8.3",
+    "underscore-es": "^1.9.8",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+
+  },
+  "description": ""
+}

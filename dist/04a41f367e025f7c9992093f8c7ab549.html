@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+    <style>
+        #App .big,
+        #App .small {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            margin-left: -50px;
+            margin-top: -50px;
+            background: #9c27b0;
+            cursor: pointer;
+            color: #fff;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+            border-radius: 6px;
+            -webkit-transform-origin: center bottom;
+            transform-origin: center bottom;
+            will-change: transform;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-perspective: 1000px;
+            perspective: 1000px;
+            -webkit-transform: translateZ(0.0001px);
+            transform: translateZ(0.0001px);
+            zoom: 1;
+        }
+
+        #App .small {
+            background: #5af158;
+            width: 50px;
+            height: 50px;
+            margin-left: -25px;
+            margin-top: -25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+      <app></app>
+    </div>
+    
+    <script type="text/javascript" src="/dist/07a951df4ef054b2283f46d3e2be5b8d.js"></script>
+</body>
+
+</html>
